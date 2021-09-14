@@ -11,6 +11,7 @@ let make = () => {
           {React.string("count is: " ++ string_of_int(count))}
         </button>
       </p>
+      <h2> {React.string("test test")} </h2>
     </header>
   </div>
 }

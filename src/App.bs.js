@@ -19,7 +19,7 @@ function App(Props) {
                                             return count + 1 | 0;
                                           }));
                             })
-                        }, "count is: " + String(match[0])))));
+                        }, "count is: " + String(match[0]))), React.createElement("h2", undefined, "test test")));
 }
 
 var make = App;
